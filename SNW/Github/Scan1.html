@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Gemini Scans</title>
+  <title>Gemini Multi-Scan</title>
   <script>
     function openAll() {
-      window.open("https://aiskillshouse.com/student/qr-mediator.html?uid=8607&promptId=6", "_blank");
-      window.open("https://aiskillshouse.com/student/qr-mediator.html?uid=4884&promptId=6", "_blank");
-      window.open("https://aiskillshouse.com/student/qr-mediator.html?uid=8608&promptId=6", "_blank");
+      // Put your real Gemini QR links here
+      window.open("https://gemini.link/your_QR1", "_blank");
+      window.open("https://gemini.link/your_QR2", "_blank");
+      window.open("https://gemini.link/your_QR3", "_blank");
     }
+    window.onload = openAll;
   </script>
 </head>
-<body onload="openAll()">
-  <h2>Loading... Please wait</h2>
-  <p>If nothing opens, click below:</p>
-  <button onclick="openAll()">Open All</button>
+<body>
+  <h2>Please wait... your scan is being recorded.</h2>
+  <p>If tabs didn’t open, click below:</p>
+  <button onclick="openAll()">Click to complete scan</button>
 </body>
 </html>
