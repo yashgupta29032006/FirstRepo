@@ -4,17 +4,19 @@
   <title>Gemini Multi-Scan</title>
   <script>
     function openAll() {
-      // Put your real Gemini QR links here
-      window.open("https://gemini.link/your_QR1", "_blank");
-      window.open("https://gemini.link/your_QR2", "_blank");
-      window.open("https://gemini.link/your_QR3", "_blank");
+      // Replace these with your actual Gemini QR links
+      window.open("https://g.co/gemini/yourQR1", "_blank");
+      window.open("https://g.co/gemini/yourQR2", "_blank");
+      window.open("https://g.co/gemini/yourQR3", "_blank");
     }
+
+    // Automatically open links when the page loads
     window.onload = openAll;
   </script>
 </head>
 <body>
   <h2>Please wait... your scan is being recorded.</h2>
-  <p>If tabs didn’t open, click below:</p>
+  <p>If tabs didn’t open automatically, click below to complete your scan:</p>
   <button onclick="openAll()">Click to complete scan</button>
 </body>
 </html>
